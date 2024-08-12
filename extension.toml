@@ -1,0 +1,11 @@
+id = "pylsp"
+name = "Python LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Kyle Kelley <rgbkrk@gmail.com>"]
+description = "python-lsp extension for Zed"
+repository = "https://github.com/rgbkrk/python-lsp-zed-extension"
+
+[language_servers.pylsp]
+name = "pylsp"
+languages = ["Python"]
